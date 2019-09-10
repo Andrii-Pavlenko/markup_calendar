@@ -26,6 +26,6 @@ Upon hovering over a cell, the cursor should become pointer. The hovered cell ha
 Please see a [reference image](reference.png).
 
 You are encouraged to use SASS (.scss) for this task. Please do not use JavaScript.
-- [UPDATE DEMO LINK](https://andrii-pavlenko.github.io/markup_calendar/)
+- [UPDATE DEMO LINK](https://andrii-pavlenko.github.io/markup_calendar/src/)
 - [UPDATE TEST REPORT LINK](https://andrii-pavlenko.github.io/markup_calendar/report/html_report/)
 
