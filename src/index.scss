@@ -14,12 +14,11 @@ $day: (
 
 $days: 30;
 
-@mixin calendar-x {
-    @for $i from 1 through $days {
-        .calendar-#{$i} { @extend .calendar-31; }
-    }
-  }
-@include calendar-x;
+
+@for $i from 1 through $days {
+    .calendar-#{$i} { @extend .calendar-31; }
+}
+
 
 $m: 1;
 
@@ -60,5 +59,4 @@ $m: 1;
         text-align: center;
         line-height: $height;
     }
-    
 }
