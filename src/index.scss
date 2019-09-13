@@ -60,3 +60,12 @@ $m: 1;
         line-height: $height;
     }
 }
+@for $i from 28 through 31 {
+    .calendar-#{$i} {
+        @for $j from $i through 31 {
+        div:nth-child(#{$j}) {
+        display: none;
+        }
+        }
+    }
+}
