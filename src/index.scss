@@ -63,7 +63,7 @@ $m: 1;
 @for $i from 28 through 31 {
     .calendar-#{$i} {
         @for $j from $i through 31 {
-        div:nth-child(#{$j}) {
+        div:nth-child(#{$j+1}) {
         display: none;
         }
         }
